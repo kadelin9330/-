@@ -1,0 +1,12 @@
+﻿  addshell.cpp
+D:\vs_porject\addshell\addshell\addshell.cpp(90,50): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  pefield.cpp
+D:\vs_porject\addshell\addshell\pefield.cpp(135,30): warning C4267: “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+D:\vs_porject\addshell\addshell\pefield.cpp(138,23): warning C4267: “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+D:\vs_porject\addshell\addshell\pefield.cpp(149,39): warning C4267: “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+D:\vs_porject\addshell\addshell\pefield.cpp(176,35): warning C4267: “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+D:\vs_porject\addshell\addshell\pefield.cpp(203,19): warning C4267: “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+  pefield.h
+  正在生成代码...
+x64\Debug\pefield.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  addshell.vcxproj -> D:\vs_porject\addshell\x64\Debug\addshell.exe

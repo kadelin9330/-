@@ -1,0 +1,27 @@
+﻿  pch.cpp
+  CryptoDLL.cpp
+D:\vs_porject\CryptoDLL\CryptoDLL\CryptoDLL.cpp(293,22): warning C4267: “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“/CryptoDLL.cpp”)
+  
+D:\vs_porject\CryptoDLL\CryptoDLL\CryptoDLL.cpp(297,21): warning C4267: “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“/CryptoDLL.cpp”)
+  
+D:\vs_porject\CryptoDLL\CryptoDLL\CryptoDLL.cpp(301,21): warning C4267: “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“/CryptoDLL.cpp”)
+  
+D:\vs_porject\CryptoDLL\CryptoDLL\CryptoDLL.cpp(473,22): warning C4267: “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“/CryptoDLL.cpp”)
+  
+D:\vs_porject\CryptoDLL\CryptoDLL\CryptoDLL.cpp(477,21): warning C4267: “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“/CryptoDLL.cpp”)
+  
+D:\vs_porject\CryptoDLL\CryptoDLL\CryptoDLL.cpp(481,21): warning C4267: “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“/CryptoDLL.cpp”)
+  
+D:\vs_porject\CryptoDLL\CryptoDLL\CryptoDLL.cpp(527,26): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“/CryptoDLL.cpp”)
+  
+  dllmain.cpp
+  正在生成代码...
+    正在创建库 D:\vs_porject\CryptoDLL\x64\Debug\CryptoDLL.lib 和对象 D:\vs_porject\CryptoDLL\x64\Debug\CryptoDLL.exp
+  CryptoDLL.vcxproj -> D:\vs_porject\CryptoDLL\x64\Debug\CryptoDLL.dll

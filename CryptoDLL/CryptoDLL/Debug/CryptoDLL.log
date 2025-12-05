@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  CryptoDLL.cpp
+  dllmain.cpp
+  正在生成代码...
+    正在创建库 D:\vs_porject\CryptoDLL\Debug\CryptoDLL.lib 和对象 D:\vs_porject\CryptoDLL\Debug\CryptoDLL.exp
+  CryptoDLL.vcxproj -> D:\vs_porject\CryptoDLL\Debug\CryptoDLL.dll
