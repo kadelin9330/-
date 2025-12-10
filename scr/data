@@ -1,0 +1,196 @@
+
+(frida) E:\crakme\apk\seestar>frida-ps -U
+  PID  Name
+-----  -----------------------------------------------------
+ 5745  .dataservices
+ 5757  .qtidataservices
+22930  Chrome
+21052  Facebook
+22104  Gmail
+ 6716  Google
+15517  Google Play 商店
+17937  Seestar
+20908  WhatsApp
+22719  YouTube
+ 1633  adbd
+ 1507  adsprpcd
+ 1509  adsprpcd
+ 5233  android.hardware.audio.service
+ 1579  android.hardware.biometrics.face@1.0-service.google
+ 1115  android.hardware.bluetooth@1.0-service-qti
+  704  android.hardware.boot@1.2-service
+ 1116  android.hardware.camera.provider@2.7-service-google
+ 1117  android.hardware.cas@1.2-service
+  718  android.hardware.configstore@1.1-service
+ 1118  android.hardware.confirmationui@1.0-service-google
+ 1119  android.hardware.contexthub-service.generic
+ 1120  android.hardware.drm-service.clearkey
+ 1121  android.hardware.drm-service.widevine
+  706  android.hardware.gatekeeper@1.0-service-qti
+ 1122  android.hardware.gnss@2.1-service-qti
+  717  android.hardware.graphics.composer@2.4-service-sm8150
+ 1123  android.hardware.health@2.1-service
+ 1124  android.hardware.identity@1.0-service.citadel
+ 2146  android.hardware.input.processor-service
+  668  android.hardware.keymaster@4.0-service-qti
+  671  android.hardware.keymaster@4.1-service.citadel
+ 1545  android.hardware.media.omx@1.0-service
+ 1125  android.hardware.memtrack@1.0-service
+ 1126  android.hardware.neuralnetworks@1.2-service-noronha
+ 1253  android.hardware.neuralnetworks@1.2-service-noronha
+ 1127  android.hardware.neuralnetworks@1.3-service-qti
+ 1128  android.hardware.nfc@1.2-service.st
+  714  android.hardware.power-service.pixel-libperfmgr
+ 1130  android.hardware.power.stats@1.0-service.pixel
+ 1080  android.hardware.rebootescrow-service.citadel
+ 1131  android.hardware.secure_element@1.0-service.st
+ 1132  android.hardware.sensors@2.0-service.multihal
+ 1940  android.hardware.thermal@2.0-service.pixel
+ 1133  android.hardware.usb-service.coral
+ 1134  android.hardware.usb.gadget-service.coral
+ 1194  android.hardware.vibrator-service.cs40l25
+ 1135  android.hardware.weaver@1.0-service.citadel
+ 1113  android.hidl.allocator@1.0-service
+ 6199  android.process.acore
+21482  android.process.media
+  702  android.system.suspend@1.0-service
+ 5228  audioserver
+ 5229  cameraserver
+ 1514  cdsprpcd
+ 1582  chre
+  669  citadeld
+ 1546  cnd
+ 1560  cnss-daemon
+ 5678  com.android.bluetooth
+21016  com.android.chrome
+22874  com.android.chrome:privileged_process0
+22916  com.android.chrome_zygote
+ 5743  com.android.hbmsvmanager
+ 6467  com.android.ims.rcsservice
+ 5660  com.android.networkstack.process
+ 6450  com.android.nfc
+ 5819  com.android.phone
+ 5816  com.android.se
+ 5605  com.android.systemui
+22061  com.android.vending:background
+ 6483  com.google.SSRestartDetector
+20841  com.google.android.adservices.api
+13998  com.google.android.apps.carrier.carrierwifi
+22075  com.google.android.apps.carrier.log
+21598  com.google.android.apps.gcs
+ 6743  com.google.android.apps.messaging
+ 5977  com.google.android.apps.nexuslauncher
+ 6178  com.google.android.apps.scone
+21394  com.google.android.apps.turbo
+20884  com.google.android.apps.turbo:aab
+19416  com.google.android.apps.wellbeing
+ 6396  com.google.android.as
+ 5863  com.google.android.ext.services
+ 6649  com.google.android.gms
+ 5916  com.google.android.gms.persistent
+18990  com.google.android.gms.ui
+14290  com.google.android.gms.unstable
+ 6400  com.google.android.googlequicksearchbox:interactor
+ 5783  com.google.android.grilservice
+ 6266  com.google.android.ims
+ 7671  com.google.android.inputmethod.latin
+20865  com.google.android.partnersetup
+18741  com.google.android.permissioncontroller
+21695  com.google.android.projection.gearhead:provider
+ 6425  com.google.android.providers.media.module
+ 6681  com.google.android.settings.intelligence
+12209  com.google.android.setupwizard
+21955  com.google.android.tts
+21432  com.google.android.turboadapter
+ 5719  com.google.oslo
+ 6621  com.google.process.gapps
+ 6544  com.google.process.gservices
+ 5773  com.qti.phone
+ 8493  com.qualcomm.qcrilmsgtunnel
+ 6515  com.qualcomm.qti.services.secureui:sui_service
+10648  com.qualcomm.telephony
+18135  com.zwo.seestar:device
+ 1162  credstore
+ 1491  drmserver
+ 7605  frida-42f57322-9e37-4bb1-9590-9cd3c4c24da9
+ 1569  gatekeeper
+ 1169  gpuservice
+  720  hardware.google.light@1.1-service
+  660  hwservicemanager
+ 2534  ims_rtp_daemon
+ 1648  imsdatadaemon
+ 1519  imsqmidaemon
+ 2066  imsrcsd
+ 1535  incidentd
+    1  init
+  590  init
+ 1538  installd
+ 5242  ip6tables-restore
+ 1085  ipacm
+ 5241  iptables-restore
+  703  keystore
+  657  lmkd
+ 1562  loc_launcher
+  656  logd
+ 1610  lowi-server
+ 1036  magiskd
+ 1539  media.extractor
+ 1540  media.metrics
+ 5230  mediaserver
+ 1555  mediaswcodec
+ 1152  modem_svc
+ 1153  msm_irqbalance.conf
+ 5231  netd
+ 1547  netmgrd
+ 5806  org.codeaurora.ims
+ 1156  pd-mapper
+ 1136  pixelstats-vendor
+ 1644  pm-proxy
+ 1482  pm-service
+ 1550  port-bridge
+ 1552  qcrild
+ 1149  qrtr-ns
+  667  qseecomd
+ 1137  rlsservice
+ 1173  rmt_storage
+ 1177  sensors.qti
+  658  servicemanager
+22998  sh
+ 5602  sockets
+  707  sscrpcd
+ 1148  sscrpcd
+ 1095  statsd
+ 1543  storaged
+  715  surfaceflinger
+ 5368  system_server
+ 1151  tftp_server
+ 1175  tftp_server
+ 1504  thermal-engine-flame-normal_mode.conf
+  766  time_daemon
+  782  tombstoned
+ 1497  traced
+ 1494  traced_probes
+  592  ueventd
+ 1573  update_engine
+ 1138  vendor.google.airbrush@1.0-service
+ 1140  vendor.google.google_battery@1.2-service-vendor
+ 1141  vendor.google.radioext@1.0-service
+ 1142  vendor.google.wifi_ext@1.0-service-vendor
+ 1144  vendor.google.wireless_charger@1.3-service-vendor
+  719  vendor.qti.hardware.display.allocator-service
+  690  vendor.qti.hardware.qseecom@1.0-service
+ 1145  vendor.qti.hardware.qteeconnector@1.0-service
+ 1146  vendor.qti.hardware.tui_comm@1.0-service-qti
+ 1147  vendor.qti.media.c2@1.0-service
+  665  vndbinder
+  691  vold
+ 5701  webview_zygote
+ 5232  wificond
+ 1616  xtra-daemon
+ 5227  zygote
+ 5226  zygote64
+ 6418  信息
+21593  电话
+21565  设置
+
+(frida) E:\crakme\apk\seestar>
